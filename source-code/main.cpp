@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 // ========================================
@@ -7,32 +6,33 @@ using namespace std;
 // IMPLEMENTASI ALGORITMA DALAM C++
 // ========================================
 
-// Nama Lengkap :
-// Kelas        :
-// Nomor Absen  :
-// Judul Program:
+// Nama Lengkap :Raisya Rizkia
+// Kelas        :xii-10
+// Nomor Absen  :29
+// Judul Program:Program Menghitung Luas Persegi Panjang
 
 int main() {
 
-    // 1. DEKLARASI VARIABEL
-    // Deklarasikan variabel yang diperlukan.
+//DEKLARASI 
+float panjang, lebar, luas;
 
+//INPUT
+cout << "Menghitung luas persegi panjang"<<endl;
 
-    // 2. INPUT
-    // Tuliskan perintah untuk menerima data
-    // dari pengguna menggunakan cin atau getline.
+cout << "Masukan nilai lebar : "<<endl;
+cin >> lebar;
+cout << "masukan nilai panjang :"<<endl;
+cin >> panjang;
 
+//PROSES
+cout << "Hitung nilai persegi panjang :";
 
-    // 3. PROSES
-    // Tuliskan proses atau perhitungan program.
-    // Gunakan IF-ELSE jika diperlukan.
-    // Gunakan FOR atau WHILE jika diperlukan.
+luas = panjang * lebar;
 
+//OUTPUT 
+cout << "Tampilan hasil luas persegi panjang : "<<luas <<endl;
 
-    // 4. OUTPUT
-    // Tuliskan perintah untuk menampilkan hasil
-    // menggunakan cout.
+return 0;
 
-
-    return 0;
 }
+
